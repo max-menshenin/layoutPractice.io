@@ -338,10 +338,15 @@ nav ul li a:hover {
 }
 
 .about-container-text {
+	padding-top: 107px;
 	padding-bottom: 50px;
-	padding-top: 115px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
 	text-align: center;
-	word-wrap: normal;
+	
 }
 
 .img_ruler {

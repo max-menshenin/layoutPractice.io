@@ -344,10 +344,13 @@ nav ul li a:hover {
 	font-size: 32px;
 	line-height: 38px;
 	text-align: center;
-	
 }
 
+.section__item {
+	background-color: #34547A;
+	padding-left: 50px;
 
+}
 
 
 

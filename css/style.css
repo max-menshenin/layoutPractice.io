@@ -339,7 +339,7 @@ nav ul li a:hover {
 
 .about-container-text {
 	padding-top: 107px;
-	padding-bottom: 50px;
+	padding-bottom: 37px;/*  этот отступ подправил */
 	font-weight: 700;
 	font-size: 32px;
 	line-height: 38px;
@@ -347,12 +347,16 @@ nav ul li a:hover {
 }
 
 .section__item {
-	padding-top: 10px;
 	background-color: #34547A;
-	padding-left: 50px;
-	margin-top: 89px;
-	padding-bottom: 45px;
+	margin: 84px 0 0 0;
+	padding: 98px 0 100px 0;
+}
 
+.section__item-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	max-width: 1090px;
 }
 
 

@@ -359,6 +359,11 @@ nav ul li a:hover {
 	max-width: 1090px;
 }
 
+.fixedprof {
+	width: 1150px;
+	
+}
+
 .proficiency__subtitle {
 	width: 100%;
 	margin-bottom: 30px;
@@ -395,4 +400,8 @@ nav ul li a:hover {
 .proficiency__wrapper {
 	display: flex;
 	width: 1150px;
+}
+.proficiency {
+	max-width: 1150px;
+
 }

@@ -360,7 +360,8 @@ nav ul li a:hover {
 }
 
 .fixedprof {
-	width: 1150px;	
+	width: 110px;
+	padding-right: 700px;	
 }
 
 .proficiency__subtitle {

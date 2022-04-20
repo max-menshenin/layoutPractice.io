@@ -325,6 +325,7 @@ nav ul li a:hover {
 }
 
 .man-photo {
+	padding-top: 97px;
 	width: 555px;
 }
 
@@ -365,6 +366,7 @@ nav ul li a:hover {
 }
 
 .proficiency__sub {
+	padding-bottom: 50px;
 	width: 100%;
 	margin-bottom: 30px;
 	padding-bottom: 20px;
@@ -405,7 +407,10 @@ nav ul li a:hover {
 
 .proficiency__title {
 	padding-top: 200px;
-	font-weight: 900;
 	font-size: 32px;
 	line-height: 38px;
+}
+
+.proficiency__sub {
+	width: 430px
 }

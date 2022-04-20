@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 .mobile-container {
 	/* попап окно можем убирать либо display: none */
-	display none;
+	display: none;
 	/* либо opacity + visibility: ; */
 	opacity: 0;
 	visibility: hidden;
@@ -400,9 +400,12 @@ nav ul li a:hover {
 .proficiency__wrapper {
 	display: flex;
 	width: 1150px;
+	justify-content: space-between;
 }
 
-.proficiency {
-	max-width: 1150px;
-	justify-content: space-between;
+.proficiency__title {
+	padding-top: 200px;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 38px;
 }

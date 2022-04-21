@@ -443,4 +443,8 @@ nav ul li a:hover {
 	text-align: center;
 }
 
+.movie-img {
+	width: 600px;
+	height: 100px;
+}
 /* Movie end */

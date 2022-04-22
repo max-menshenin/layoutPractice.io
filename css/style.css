@@ -418,10 +418,6 @@ nav ul li a:hover {
 
 /* Movie start */
 
-.movie {
-	background-color: #EEEFF1;
-	
-}
 
 .movie__title {
 	font-weight: 500;
@@ -443,9 +439,11 @@ nav ul li a:hover {
 	text-align: center;
 }
 
-.movie-img {
-	width: 600px;
-	height: 100px;
+.movie-image {
+	width: 1110px;
+	height: 600px;
+	left: 405px;
+	top: 2266px;
 }
 
 .movie__title {
@@ -459,12 +457,16 @@ nav ul li a:hover {
 	text-align: center;
 }
 
-.movie-image {
+
+.movie-image__wrapper {
 	width: 1110px;
 	height: 600px;
 	left: 405px;
 	top: 2266px;
-
 }
 
+.fixed-movie {
+	width: 1920px;
+	height: 1004px;
+}
 /* Movie end */

@@ -439,15 +439,15 @@ nav ul li a:hover {
 	text-align: center;
 }
 
+/* Стили ролика картинки */
+ 
 .movie-image {
-	width: 1110px;
+	padding-left: 80px;
 	height: 600px;
-	left: 405px;
-	top: 2266px;
+	padding-top: 165px;
 }
 
 .movie__title {
 	color: black;
 }
 
-.

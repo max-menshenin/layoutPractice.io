@@ -325,7 +325,8 @@ nav ul li a:hover {
 }
 
 .man-photo {
-	padding-top: 97px;
+	padding-left: 10px;
+	padding-top: 90px;
 	width: 555px;
 }
 
@@ -418,7 +419,6 @@ nav ul li a:hover {
 
 /* Movie start */
 
-
 .movie__title {
 	font-weight: 500;
 	font-size: 32px;
@@ -450,23 +450,4 @@ nav ul li a:hover {
 	color: black;
 }
 
-.movie__subtitle {
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 26px;
-	text-align: center;
-}
-
-
-.movie-image__wrapper {
-	width: 1110px;
-	height: 600px;
-	left: 405px;
-	top: 2266px;
-}
-
-.fixed-movie {
-	width: 1920px;
-	height: 1004px;
-}
-/* Movie end */
+.

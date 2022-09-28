@@ -439,7 +439,7 @@ nav ul li a:hover {
 	text-align: center;
 }
 
-/* Стили ролика картинки */
+/* Movie start */
  
 .movie-image {
 	padding-left: 80px;
@@ -451,19 +451,33 @@ nav ul li a:hover {
 	color: black;
 }
 
-/* Стили проектов */
+/* Movie end */
 
+/* Project styles start */
 .section-projects {
-	padding-top: 293px;
 	width: 1920px;
 	height: 960px;
 }
+/* Project styles end */
 
-/* Стили формы */
+/* Microsoft section start */
+.work__elements {
+	padding-left: 115px;
+	padding-top: 290px;
+	margin: 72px 0 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.work__element {
+	max-width: 100%;
+}
+/* Microsoft section end */
+
 /* Request form section start */
-
 .request-form {
-	padding-top: 100px;
+	padding-top: 200px;
 	padding-bottom: 100px;
 	background-color: #EEEFF1;
 	text-align: center;
@@ -512,7 +526,5 @@ nav ul li a:hover {
 	background: #34547A;
 	border: 0;
 }
-
-
-/* Стили проектов */
+/* Project styles end */
 

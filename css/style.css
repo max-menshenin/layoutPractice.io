@@ -442,9 +442,10 @@ nav ul li a:hover {
 /* Movie start */
  
 .movie-image {
+	padding-top: 500px;
 	padding-left: 83px;
 	height: 600px;
-	padding-top: 157px;
+	padding-top: 200px;
 }
 
 .movie__title {
@@ -455,6 +456,8 @@ nav ul li a:hover {
 
 /* Project styles start */
 .section-projects {
+	padding-right: 190px;
+	padding-top: 300px;
 	width: 1920px;
 	height: 960px;
 }
@@ -477,7 +480,8 @@ nav ul li a:hover {
 
 /* Request form section start */
 .request-form {
-	padding-top: 200px;
+	
+	padding-top: 56px;
 	padding-bottom: 100px;
 	background-color: #EEEFF1;
 	text-align: center;
@@ -493,6 +497,11 @@ nav ul li a:hover {
 	justify-content: space-between;
 }
 
+.wrapper-form {
+	padding-left: 450px;
+	width: 540px;
+	align-items: center;
+}
 .request-form__field {
 	top: 0;
 	border: none;
@@ -527,4 +536,19 @@ nav ul li a:hover {
 	border: 0;
 }
 /* Project styles end */
+.footer__vc-link {
+	background-color: #253b57;
+}
+.footer__item {
+	padding: 40px;
+	justify-content: center;
+	text-align: center;
+}
 
+.footer__copyright-name {
+	margin-bottom: 5px;
+}
+
+.footer__copyright-rights {
+	margin-bottom: 5px;
+}

@@ -326,7 +326,7 @@ nav ul li a:hover {
 
 .man-photo {
 	padding-left: 200px;
-	padding-top: 90px;
+	padding-top: 105px;
 	width: 555px;
 }
 
@@ -442,9 +442,9 @@ nav ul li a:hover {
 /* Movie start */
  
 .movie-image {
-	padding-left: 200px;
+	padding-left: 83px;
 	height: 600px;
-	padding-top: 165px;
+	padding-top: 157px;
 }
 
 .movie__title {

@@ -239,7 +239,7 @@ nav ul li a:hover {
 }
 
 .projects {
-	height: 250px;
+	height: 350px;
 	background-color: #34547A;
 }
 
@@ -325,7 +325,7 @@ nav ul li a:hover {
 }
 
 .man-photo {
-	padding-left: 10px;
+	padding-left: 200px;
 	padding-top: 90px;
 	width: 555px;
 }
@@ -442,7 +442,7 @@ nav ul li a:hover {
 /* Movie start */
  
 .movie-image {
-	padding-left: 80px;
+	padding-left: 200px;
 	height: 600px;
 	padding-top: 165px;
 }

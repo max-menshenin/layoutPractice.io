@@ -432,32 +432,33 @@ nav ul li a:hover {
 .how-desc {
 	width: 540px;
 	height: 67px;
-	padding-bottom: 50px;
+	padding-bottom: 190px;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
 	text-align: center;
 }
 
+
 /* Movie start */
- 
 .movie-image {
-	padding-top: 500px;
+	padding-top: 158px;
+	padding-bottom: 50px;
 	padding-left: 83px;
 	height: 600px;
-	padding-top: 200px;
+
+
 }
 
 .movie__title {
 	color: black;
 }
-
 /* Movie end */
 
 /* Project styles start */
 .section-projects {
 	padding-right: 190px;
-	padding-top: 300px;
+	padding-top: 230px;
 	width: 1920px;
 	height: 960px;
 }
@@ -482,6 +483,7 @@ nav ul li a:hover {
 .request-form {
 	
 	padding-top: 56px;
+	padding: right 500px;
 	padding-bottom: 100px;
 	background-color: #EEEFF1;
 	text-align: center;

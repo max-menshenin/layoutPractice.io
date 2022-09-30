@@ -420,7 +420,7 @@ nav ul li a:hover {
 /* Movie start */
 
 .movie__title {
-	font-weight: 500;
+	font-weight: 800;
 	font-size: 32px;
 	line-height: 38px;
 	padding-top: 390px;
@@ -467,7 +467,6 @@ nav ul li a:hover {
 /* Microsoft section start */
 .work__elements {
 	padding-left: 115px;
-	padding-top: 290px;
 	margin: 72px 0 100px;
 	display: flex;
 	flex-wrap: wrap;
@@ -500,18 +499,19 @@ nav ul li a:hover {
 }
 
 .wrapper-form {
+	padding-bottom: 70px;
 	padding-left: 450px;
 	width: 540px;
 	align-items: center;
 }
-.request-form__field {
+request-form__field {
 	top: 0;
 	border: none;
 	font-size: 14px;
 	line-height: 15px;
 	color: #5F5D5D;
 	padding: 17px 20px 16px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-family: 'Roboto';
 }
 

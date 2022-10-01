@@ -441,10 +441,10 @@ nav ul li a:hover {
 /* Movie start */
  
 .movie-image {
-	padding-top: 157px;
+	padding-top: 156px;
+	padding-bottom: 270px;
 	padding-left: 83px;
-	height: 600px;
-	padding-bottom: 157px;
+	height: 600px
 }
 
 .movie__title {
@@ -455,6 +455,8 @@ nav ul li a:hover {
 
 /* Project styles start */
 .section-projects {
+	padding-top: 14px;
+	padding-right: 30px;
 	width: 1920px;
 	height: 960px;
 }
@@ -463,7 +465,7 @@ nav ul li a:hover {
 /* Microsoft section start */
 .work__elements {
 	padding-left: 115px;
-	padding-top: 290px;
+	padding-top: 0px;
 	margin: 72px 0 100px;
 	display: flex;
 	flex-wrap: wrap;
@@ -528,6 +530,4 @@ nav ul li a:hover {
 }
 /* Project styles end */
 
-/* Wrapper form */
-.wrapper-form {
-}
+/* Request form */

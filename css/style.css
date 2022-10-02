@@ -120,202 +120,9 @@ nav ul li a:hover {
 	margin-left: 50px;
 	font-size: 16px;
 }
-
-/* Меню при адаптации */
-
-.mobile-container {
-	/* попап окно можем убирать либо display: none */
-	display: none;
-	/* либо opacity + visibility: ; */
-	opacity: 0;
-	visibility: hidden;
-	/* --------------------- */
-	position: fixed;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: 12;
-	background-color: rgba(0, 0, 0, .8);
-	transition: all 0.8s ease 0s;
-}
-
-.mobile-container:target {
-	opacity: 1;
-	visibility: visible;
-
-}
-
-/* Для закрытия с помощью css при клике на темную область */
-.popup__area {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-}
-
-/* Для закрытия с помощью css при клике на темную область */
-.header-mobile {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	width: 310px;
-	height: 380px;
-	background-color: rgba(79, 128, 192);
-	border: 1px solid grey;
-	border-radius: 10px;
-	overflow: auto;
-	font-size: 14px;
-}
-
-.close-icon {
-	width: 18px;
-	padding-top: 12px;
-}
-
-.close-icon span {
-	position: absolute;
-	top: 20px;
-	left: 270px;
-	display: block;
-	height: 1px;
-	width: 20px;
-	background-color: rgb(232, 235, 52);
-}
-
-.close-icon span:first-child {
-	transform: rotate(45deg);
-}
-
-.close-icon span:last-child {
-	transform: rotate(-45deg);
-}
-
-.mobile-list {
-	padding-left: 25px;
-	margin-top: 0px;
-	padding-top: 65px;
-	list-style-type: none;
-	padding-left: 0;
-	font-size: 18px;
-}
-
-.mobile-list li {
-	text-align: center;
-	padding-bottom: 10px;
-	letter-spacing: -0.36px;
-	padding-top: 9px;
-	margin: 0 auto;
-	border-bottom: 1px solid lightgrey;
-	width: 120px;
-	text-transform: uppercase;
-}
-
-.mobile-list li:last-child {
-	border-bottom: none;
-}
-
-.mobile-list a {
-	text-decoration: none;
-	color: white;
-	transition: background 300ms ease;
-	outline: none;
-}
-
-.mobile-list a:hover {
-	color: rgb(232, 235, 52);
-}
-
-.swal-button-container button {
-	background: cyan;
-}
+ец меню при адаптации */
 
 
-.portfolio {
-	background-color: #34547A;
-	height: 250px;
-}
-
-.projects {
-	height: 350px;
-	background-color: #34547A;
-}
-
-/* Конец меню при адаптации */
-
-@media (max-width: 1250px) {
-
-	.description {
-		margin-bottom: 70px;
-		line-height: 26px;
-		width: 100%;
-	}
-
-	.right-part {
-		padding-left: 80px;
-	}
-
-	.laptop {
-		padding-left: 50px;
-	}
-}
-
-@media (max-width: 925px) {
-
-	.logo {
-		padding-left: 0;
-	}
-
-	.header-menu {
-		display: none;
-	}
-
-	.section-container {
-		display: block;
-		align-content: center;
-		padding-top: 50px;
-		margin: 0 auto;
-		justify-content: center;
-	}
-
-	.right-part {
-		margin: 0 auto;
-		padding: 0;
-		text-align: center;
-	}
-
-	.laptop {
-		padding: 0px;
-		margin: 0 auto 40px auto;
-		text-align: center;
-	}
-
-	h1 {
-		font-size: 24px;
-	}
-
-	.menu-container {
-		padding-top: 30px;
-	}
-
-	.logo img {
-		width: 70px
-	}
-
-	.burger-icon {
-		display: block;
-		height: 2px;
-		width: 24px;
-	}
-
-	.burger-icon span {
-		height: 2px;
-		width: 24px;
-	}
-
-}
 
 .section-numbers {
 	color: #34547A;
@@ -483,8 +290,13 @@ nav ul li a:hover {
 	padding-bottom: 270px;
 	background-color: #EEEFF1;
 	text-align: center;
-	width: 540px;
+	/* width: 540px; */
 	padding-left: 70 0px;
+}
+
+.wrapper-form-reqest {
+	max-width: 525px;
+	margin: 0 auto;
 }
 
 .request-text-subtitle {
@@ -497,6 +309,10 @@ nav ul li a:hover {
 	justify-content: space-between;
 }
 
+.request-section-title {
+	font-style: 14px;
+}
+
 .request-form__field {
 	top: 0;
 	border: none;
@@ -506,16 +322,18 @@ nav ul li a:hover {
 	padding: 17px 20px 16px;
 	margin-bottom: 20px;
 	font-family: 'Roboto';
+
 }
 
 .request-form__field_sm {
-	width: 47.2%;
+	width: 41.2%;
 }
 
 .request-form__field_lg {
 	width: 100%;
 	height: 175px;
 	margin-bottom: 46px;
+	padding: 0;
 }
 
 .request-form__submit {
@@ -531,4 +349,199 @@ nav ul li a:hover {
 	border: 0;
 }
 
-/* s end */
+
+/* Меню при адаптации */
+
+.mobile-container {
+	/* попап окно можем убирать либо display: none */
+	display: none;
+	/* либо opacity + visibility: ; */
+	opacity: 0;
+	visibility: hidden;
+	/* --------------------- */
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 12;
+	background-color: rgba(0, 0, 0, .8);
+	transition: all 0.8s ease 0s;
+}
+
+.mobile-container:target {
+	opacity: 1;
+	visibility: visible;
+
+}
+
+/* Для закрытия с помощью css при клике на темную область */
+.popup__area {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+/* Для закрытия с помощью css при клике на темную область */
+.header-mobile {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 310px;
+	height: 380px;
+	background-color: rgba(79, 128, 192);
+	border: 1px solid grey;
+	border-radius: 10px;
+	overflow: auto;
+	font-size: 14px;
+}
+
+.close-icon {
+	width: 18px;
+	padding-top: 12px;
+}
+
+.close-icon span {
+	position: absolute;
+	top: 20px;
+	left: 270px;
+	display: block;
+	height: 1px;
+	width: 20px;
+	background-color: rgb(232, 235, 52);
+}
+
+.close-icon span:first-child {
+	transform: rotate(45deg);
+}
+
+.close-icon span:last-child {
+	transform: rotate(-45deg);
+}
+
+.mobile-list {
+	padding-left: 25px;
+	margin-top: 0px;
+	padding-top: 65px;
+	list-style-type: none;
+	padding-left: 0;
+	font-size: 18px;
+}
+
+.mobile-list li {
+	text-align: center;
+	padding-bottom: 10px;
+	letter-spacing: -0.36px;
+	padding-top: 9px;
+	margin: 0 auto;
+	border-bottom: 1px solid lightgrey;
+	width: 120px;
+	text-transform: uppercase;
+}
+
+.mobile-list li:last-child {
+	border-bottom: none;
+}
+
+.mobile-list a {
+	text-decoration: none;
+	color: white;
+	transition: background 300ms ease;
+	outline: none;
+}
+
+.mobile-list a:hover {
+	color: rgb(232, 235, 52);
+}
+
+.swal-button-container button {
+	background: cyan;
+}
+
+
+.portfolio {
+	background-color: #34547A;
+	height: 250px;
+}
+
+.projects {
+	height: 350px;
+	background-color: #34547A;
+}
+
+/* Кон
+
+@media (max-width: 1250px) {
+
+	.description {
+		margin-bottom: 70px;
+		line-height: 26px;
+		width: 100%;
+	}
+
+	.right-part {
+		padding-left: 80px;
+	}
+
+	.laptop {
+		padding-left: 50px;
+	}
+}
+
+@media (max-width: 925px) {
+
+	.logo {
+		padding-left: 0;
+	}
+
+	.header-menu {
+		display: none;
+	}
+
+	.section-container {
+		display: block;
+		align-content: center;
+		padding-top: 50px;
+		margin: 0 auto;
+		justify-content: center;
+	}
+
+	.right-part {
+		margin: 0 auto;
+		padding: 0;
+		text-align: center;
+	}
+
+	.laptop {
+		padding: 0px;
+		margin: 0 auto 40px auto;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	.menu-container {
+		padding-top: 30px;
+	}
+
+	.logo img {
+		width: 70px
+	}
+
+	.burger-icon {
+		display: block;
+		height: 2px;
+		width: 24px;
+	}
+
+	.burger-icon span {
+		height: 2px;
+		width: 24px;
+	}
+
+}
